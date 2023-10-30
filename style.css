@@ -1,0 +1,216 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #ffffff;
+    color: #747474;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header .logo {
+    margin-top: -50px;
+    height: 138px;
+}
+
+header .logo img:hover {
+    cursor: pointer;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    text-decoration: none;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    margin-left: -80px;
+}
+
+.menu-horizontal > li:hover .menu-vertical {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu-vertical li:hover .menu-horizontal {
+    background-color: #e0e0e0;
+}
+
+.logo img {
+  height: 200px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+nav ul a {
+    color: #0c0c0c;
+    text-decoration: none;
+    margin: 0 20px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    background-color: #e0e0e0;
+    transition: .5s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content img {
+    height: 300px;
+}
+
+footer {
+    background-color: rgb(55, 62, 88);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    width: 340px;
+    margin-left: 740px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid ;
+    color: #0c0c0c;
+}
+
+.btn {
+    font-size: 16px;
+    border: 0px;
+    color: #fff;
+    background-color: rgb(55, 62, 88);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(40, 45, 63);
+}
+
+.contenido {
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mostrador {
+    width: 100%;
+    transition: .5s ease;
+    margin-bottom: 50px;
+}
+
+.mostrador .fila  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mostrador .fila .item {
+    max-width: 210px;
+    padding: 30px;
+    height: 280px;
+    text-align: center;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.mostrador .fila .item:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.mostrador .fila .item img {
+    width: 100%;    
+    margin: 5px 0;
+}
+
+.divPolitica {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    width: 700px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
