@@ -2,159 +2,149 @@
 <html>
 <head>
     <title>Multimedia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="logo-bg.png" alt="logo">
-        </div>
-        <nav class="navMenu">
-            <ul class="menu-horizontal">
-                <li><a href="main.html">Inicio</a></li>
-                <li><a href="tienda.html">Tienda</a>
-                    <ul class="menu-vertical">
-                        <li><a href="tiendaCamisetas.html">Camisetas</a></li>
-                        <li><a href="tiendaSudaderas.html">Sudaderas</a></li>
-                    </ul>
-                </li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="carrito.html">Carrito</a></li>
+        <img src="logo-bg.png" alt="logo" class="mx-auto d-block" height="300px" width="300px">
+        <nav class="container navbar navbar-expand-sm bg-light navbar-light d-flex justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="main.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrito.html">Carrito</a>
+              </li>
             </ul>
-        </nav>
+          </nav>
     </header>
     
-    <h1>Tienda</h1>
-
-    <section class="contenido">
-        <div class="mostrador" id="mostrador">
-            <div class="fila">
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta8.png" alt="imagen">
-                        <p class="descripcion">Camiseta Gris Claro</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera8.png" alt="imagen">
-                        <p class="descripcion">Sudadera Amarilla</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera1.png" alt="imagen">
-                        <p class="descripcion">Sudadera Gris</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta1.png" alt="imagen">
-                        <p class="descripcion">Camiseta Marrón</p>
-                        <span class="precio">20€</span>
+    <main>
+    <h1 class="text-center">Tienda</h1>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta8.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Gris</p>
+                        <p class="card-text">15€</p>
                     </div>
                 </div>
             </div>
-
-            <div class="fila">
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera2.png" alt="imagen">
-                        <p class="descripcion">Sudadera Roja</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta2.png" alt="imagen">
-                        <p class="descripcion">Camiseta morada</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera4.png" alt="imagen">
-                        <p class="descripcion">Sudadera Negra</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta3.png" alt="imagen">
-                        <p class="descripcion">Camiseta Negra</p>
-                        <span class="precio">20€</span>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera8.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Amarilla</p>
+                        <p class="card-text">20€</p>
                     </div>
                 </div>
             </div>
-
-            <div class="fila">
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera5.png" alt="imagen">
-                        <p class="descripcion">Sudadera Azul</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera7.png" alt="imagen">
-                        <p class="descripcion">Sudadera Azul Oscuro</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta7.png" alt="imagen">
-                        <p class="descripcion">Camiseta Granate</p>
-                        <span class="precio">20€</span>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta4.png" alt="imagen">
-                        <p class="descripcion">Camiseta Azul</p>
-                        <span class="precio">20€</span>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera5.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Azul</p>
+                        <p class="card-text">20€</p>
                     </div>
                 </div>
             </div>
-
-            <div class="fila">
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta5.png" alt="imagen">
-                        <p class="descripcion">Camiseta Rosa</p>
-                        <span class="precio">20€</span>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta1.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Marrón</p>
+                        <p class="card-text">15€</p>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera3.png" alt="imagen">
-                        <p class="descripcion">Sudadera Naranja</p>
-                        <span class="precio">20€</span>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera2.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Roja</p>
+                        <p class="card-text">20€</p>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/camiseta6.png" alt="imagen">
-                        <p class="descripcion">Camiseta Gris Oscuro</p>
-                        <span class="precio">20€</span>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta2.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Morada</p>
+                        <p class="card-text">15€</p>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="contenedor-foto">
-                        <img src="imgs/sudadera6.png" alt="imagen">
-                        <p class="descripcion">Sudadera Verde Lima</p>
-                        <span class="precio">20€</span>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera4.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Negra</p>
+                        <p class="card-text">20€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera1.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Gris</p>
+                        <p class="card-text">20€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta5.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Rosa</p>
+                        <p class="card-text">15€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta7.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Granate</p>
+                        <p class="card-text">15€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/camiseta4.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Camiseta Azul</p>
+                        <p class="card-text">15€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="imgs/sudadera7.png" height="300px" width="300px">
+                    <div class="card-body">
+                        <p class="card-title">Sudadera Azul Oscuro</p>
+                        <p class="card-text">20€</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <footer>
-        <a href="politica.html">Politica de privacidad</a>
-    </footer>
+    </div>
+    </main>
+    <footer class="page-footer font-small blue bg-dark text-white text-center ">
+        <div class="footer-copyright text-center py-3">
+          <a href="politica.html">Politica de privacidad</a>
+        </div>
+      </footer>
 </body>
 </html>
